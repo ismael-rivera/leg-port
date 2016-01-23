@@ -1,0 +1,33 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/audio",
+    "test/canvas",
+    "test/canvastext",
+    "test/cookies",
+    "test/eventlistener",
+    "test/json",
+    "test/touchevents",
+    "test/video",
+    "test/webanimations",
+    "test/audio/webaudio",
+    "test/css/animations",
+    "test/css/borderradius",
+    "test/css/boxshadow",
+    "test/css/boxsizing",
+    "test/css/fontface",
+    "test/css/gradients",
+    "test/css/hairline",
+    "test/es5/specification",
+    "test/event/oninput",
+    "test/forms/formattribute",
+    "test/network/beacon",
+    "test/network/connection",
+    "test/storage/websqldatabase",
+    "test/svg/asimg",
+    "test/video/preload"
+  ]
+}

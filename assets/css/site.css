@@ -1,0 +1,241 @@
+/* line 5, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rvm/gems/ruby-2.0.0-p643/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* CSS Document */
+/* line 4, ../sass/site.scss */
+html {
+  background: url(../img/homepage_minimalist_02.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 16px;
+}
+
+/* line 12, ../sass/site.scss */
+#content_wrapper {
+  position: relative;
+  /*display:table;*/
+  height: 16200px;
+}
+
+/* line 17, ../sass/site.scss */
+#customactions {
+  position: fixed;
+  z-index: 80;
+  display: block;
+  width: 170px;
+  height: 60px;
+  border: 1px solid #0F0;
+  background: #F00;
+  /*margin: auto;*/
+  float: right;
+  padding-top: 10px;
+  text-align: left;
+  top: 10px;
+}
+
+/* line 31, ../sass/site.scss */
+#bgmain {
+  height: 16200px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 1px solid #0F0;
+  position: relative;
+}
+
+/* line 40, ../sass/site.scss */
+#hero {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #F00;
+  position: fixed;
+  z-index: 20;
+  left: 50%;
+  top: 400px;
+}
+
+/* line 50, ../sass/site.scss */
+#hero_still {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #609;
+  position: relative;
+  z-index: 20;
+  left: 50%;
+  top: 15700px;
+}
+
+/* line 62, ../sass/site.scss */
+.box1.outline, .box2.outline, .box3.outline {
+  border: 1px solid white;
+}
+
+/* line 65, ../sass/site.scss */
+.blue {
+  background-color: #3883d8;
+}
+
+/* line 68, ../sass/site.scss */
+.turqoise {
+  background-color: #38ced7;
+}
+
+/* line 71, ../sass/site.scss */
+.brown {
+  background-color: #a66f28;
+}
+
+/* line 74, ../sass/site.scss */
+.bordeaux {
+  background-color: #953543;
+}
+
+/* line 77, ../sass/site.scss */
+.skin {
+  background-color: #ED9F4C;
+}
+
+/* line 80, ../sass/site.scss */
+.black {
+  background-color: #000000;
+}
+
+/* line 83, ../sass/site.scss */
+.white {
+  background-color: #FFFFFF;
+}
+
+/* line 86, ../sass/site.scss */
+.red {
+  background-color: #cf3535;
+}
+
+/* line 89, ../sass/site.scss */
+.green {
+  background-color: #22d659;
+}
+
+/* line 92, ../sass/site.scss */
+.orange {
+  background-color: #ea6300;
+}
+
+/* line 95, ../sass/site.scss */
+.box1 {
+  min-width: 50px;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto 0 auto;
+  bottom: 90px;
+  border: 1px solid #F00 !important;
+}
+
+/* line 103, ../sass/site.scss */
+.frame0 {
+  height: 250px;
+  background: url(../img/dive_00.png) no-repeat;
+}
+
+/* line 107, ../sass/site.scss */
+.frame1 {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #F00 !important;
+  background: url(../img/dive_01.png) no-repeat;
+}
+
+/* line 113, ../sass/site.scss */
+.frame2 {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #F00 !important;
+  background: url(../img/dive_02.png) no-repeat;
+}
+
+/* line 120, ../sass/site.scss */
+.frame2up {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #F00 !important;
+  background: url(../img/dive_02.png) no-repeat;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 131, ../sass/site.scss */
+.frame3 {
+  width: 280px;
+  height: 280px;
+  border: 1px solid #F00 !important;
+  background: url(../img/dive_03.png) no-repeat;
+}

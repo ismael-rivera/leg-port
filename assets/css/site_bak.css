@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	background: url(../img/homepage_minimalist_02.png) no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+#content_wrapper{
+	position: relative;
+	/*display:table;*/
+	height:16200px;
+}	
+#customactions{
+	position: fixed;
+	z-index: 80;
+	display: block;
+	width: 170px;
+	height: 60px;
+	border: 1px solid #0F0;
+	background: #F00;
+	/*margin: auto;*/
+	float: right;
+	padding-top: 10px;
+	text-align: left;
+	top: 10px;
+}
+#bgmain{
+	height: 16200px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: 1px solid #0F0;
+	position: relative;
+	}
+#hero{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #F00;
+	position: fixed;
+	z-index: 20;
+	left: 50%;
+	top: 400px;
+	}
+#hero_still{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #609;
+	position: relative;
+	z-index: 20;
+	left: 50%;
+	top: 15700px;
+	}
+
+
+.box1.outline, .box2.outline, .box3.outline {
+	border: 1px solid white;
+}
+.blue {
+	background-color: #3883d8;
+}
+.turqoise {
+	background-color: #38ced7;
+}
+.brown {
+	background-color: #a66f28;
+}
+.bordeaux {
+	background-color: #953543;
+}
+.skin {
+	background-color: #ED9F4C;
+}
+.black {
+	background-color: #000000;
+}
+.white {
+	background-color: #FFFFFF;
+}
+.red {
+	background-color: #cf3535;
+}
+.green {
+	background-color: #22d659;
+}
+.orange {
+	background-color: #ea6300;
+}
+.box1 {
+	min-width: 50px;
+	width: 280px;
+	height: 280px;
+	margin: 0 auto 0 auto;
+	bottom:90px;
+	border: 1px solid #F00 !important; 
+}
+.frame0{
+	height: 250px;
+	background: url(../img/dive_00.png) no-repeat;
+}	
+.frame1{
+	width: 280px;
+	height: 280px;
+	border: 1px solid #F00 !important; 
+	background: url(../img/dive_01.png) no-repeat;
+}
+.frame2{
+	width: 280px;
+	height: 280px;
+	border: 1px solid #F00 !important;
+	background: url(../img/dive_02.png) no-repeat;
+}
+
+.frame2up{
+	width: 280px;
+	height: 280px;
+	border: 1px solid #F00 !important;
+	background: url(../img/dive_02.png) no-repeat;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}	
+.frame3{
+	width: 280px;
+	height: 280px;
+	border: 1px solid #F00 !important;
+	background: url(../img/dive_03.png) no-repeat;
+}
+
