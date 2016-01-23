@@ -23,6 +23,7 @@
      <!-- Custom styles for the website -->
 
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/site.css" rel="stylesheet">
     <link href="assets/css/forms.css" rel="stylesheet">
     <link href="assets/css/footer.css" rel="stylesheet">
 
@@ -39,7 +40,7 @@
 
   <body>
 
-    <nav class="navbar-default navbar-fixed-top">
+    <nav class="nav navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
@@ -66,15 +67,13 @@
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /nav -->
-
-
     <div class="container">
       <div class="starter-template">
         <h1>Bootstrap starter template</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
       </div>
     </div><!-- /.container -->
-
+    <div class="csspring_spacer10"></div> 
     <div class="container" id="start">
       <div class="row">
           <div class="col-md-4"><h3>Start</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
@@ -87,7 +86,7 @@
           </div>
       </div><!-- /.row -->
     </div><!-- .container -->
-      
+    <div class="csspring_spacer10"></div>  
     <div class="container" id="portfolio">
       <div class="row">
         <div class="col-md-4"><h3>Portfolio</h3></div>
@@ -139,7 +138,9 @@
           </div>
       </div><!-- /.row -->
     </div><!-- .container -->
-      
+
+     <div class="csspring_spacer10"></div> 
+
     <div class="container" id="demos">  
       <div class="row">
           <div class="col-md-4"><h3>Demos</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
@@ -150,7 +151,9 @@
 
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
       </div><!-- /.row -->
-    </div><!-- .container -->  
+    </div><!-- .container --> 
+
+    <div class="csspring_spacer10"></div>  
 
     <div class="container" id="projects">  
       <div class="row">
@@ -162,7 +165,9 @@
 
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
       </div><!-- /.row --> 
-    </div><!-- .container -->  
+    </div><!-- .container --> 
+
+    <div class="csspring_spacer10"></div>  
 
     <div class="container" id="mystory">   
       <div class="row">
@@ -175,7 +180,9 @@
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!
           </div>
       </div><!-- /.row -->
-    </div><!-- .container -->  
+    </div><!-- .container --> 
+
+    <div class="csspring_spacer10"></div>  
 
     <div class="container" id="cvresume">    
       <div class="row">
@@ -191,6 +198,8 @@
       </div><!-- /.row -->
     </div><!-- .container -->
 
+    <div class="csspring_spacer10"></div> 
+
     <div class="container" id="spacer">  
       <div class="row">
           <div class="col-md-4"><h3>Spacer</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
@@ -202,6 +211,8 @@
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
       </div><!-- /.row -->
     </div><!-- .container -->
+
+    <div class="csspring_spacer10"></div> 
 
     <div class="container" id="blog">  
       <div class="row">
@@ -224,6 +235,8 @@
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
       </div><!-- /.row -->  
     </div><!-- .container -->
+
+    <div class="csspring_spacer10"></div> 
 
     <div class="container" id="contactme">
       <form>
@@ -287,10 +300,41 @@
         </form>
     </div><!-- .container -->
 
-
+    <div class="csspring_spacer10"></div>
+    <div class="container" id="prefooter"> 
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+            </ul>
+          </div> 
+        </div>
+    </div>
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <p class="text-muted">Place sticky footer content here. </p>
       </div>
     </footer>
     <!-- Bootstrap core JavaScript

@@ -1,14 +1,7 @@
-@import "basefiles/base";
+@import "main";
 /* CSS Document */
 
-html{
-	background: url(../img/homepage_minimalist_02.png) no-repeat;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-size:16px;
-	}
+
 #content_wrapper{
 	position: relative;
 	/*display:table;*/
@@ -134,9 +127,32 @@ html{
 	border: 1px solid #F00 !important;
 	background: url(../img/dive_03.png) no-repeat;
 }
-.csspring_spacer{
-	height:1000px;
+.csspring_spacer10, .csspring_spacer5{
 	display:block;
 	width:100%;
-	clear: both;
+	margin:0%;
+    padding:0%;
+    clear: both;
+    position: relative;
+    overflow: visible;
 }
+.csspring_spacer10{
+	height:1000px;
+}
+
+.csspring_spacer5{
+	height:500px;
+}
+#prefooter {
+	background-color:#cecece;
+	padding-bottom:100px;
+	ul{
+	padding-left:80px;
+	li{padding:10px 0px}
+	}
+}
+
+
+
+
+
