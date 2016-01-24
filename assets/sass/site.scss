@@ -1,5 +1,8 @@
-@import "main";
-/* CSS Document */
+@import "basefiles/base";
+// Import Bootstrap Compass integration
+@import "basefiles/bootstrap-compass";
+// Import Bootstrap for Sass
+@import "basefiles/bootstrap";
 
 
 #content_wrapper{
@@ -145,12 +148,45 @@
 }
 #prefooter {
 	background-color:#cecece;
-	padding-bottom:100px;
-	ul{
-	padding-left:80px;
-	li{padding:10px 0px}
+	padding-top:30px;
+	padding-bottom:40px;
+	ul, h4{
+	padding-left:10px;
+	li, h4{padding:10px 0px}
 	}
 }
+.icon-bar{color:#000;}
+
+.dropdown{
+
+	  @include screen(768px, 1360px) {
+	    dropdown:hover .dropdown-menu {
+   			 display: block;
+    		 margin-top: 0; // remove the gap so it doesn't close
+		}
+	  }
+	  @include screen(481px, 767px) {
+	   
+	  }
+	  @include screen(320px, 480px) {
+	   
+	  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
