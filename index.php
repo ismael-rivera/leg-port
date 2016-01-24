@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Crodspring Studio: Design and Development for Mobile Web</title>
+    <title>Crowdspring Studio: Design and Development for Mobile Web</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/libs/bootstrap/bootstrap.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 
   <body>
 
-    <nav class="nav navbar-fixed-top navbar-inverse">
+    <nav class="nav navbar-static-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
@@ -77,7 +77,7 @@
     </nav><!-- /nav -->
     <div class="container">
       <div class="starter-template">
-        <h1>Crodspring Studio:</h1>
+        <h1>Crowdspring Studio:</h1>
         <h4>The Portfolio of Ismael Rivera </h4>
         <p class="lead">Design and Development for the Mobile Web</p>
       </div>
@@ -90,7 +90,20 @@
 
 If you look under the hood of our online media arsenal, you will find powerful technologies such as Flash, ASP, PHP, MySQL, XHTML, HTML5, CSS, XML, Javascript, JSON, AJAX and many search engine optimization (SEO) techniques. We pick and choose amongst the best peforming web technology to maximize your potential.
           </div>
-          <div class="col-md-4 col-md-offset-4"><h3>Title</h3>I manage the social media accounts for Downtown Fort Wayne, Waiter on the Way, Fox & Fox, Mad Money Coupons, and many more. Social media is about building conversation. When I’m involved, the conversation never stops.
+          <div class="col-md-4 col-md-offset-4"><h3>Title</h3>I manage the social media accounts for Downtown Fort Wayne, Waiter on the Way, Fox & Fox, Mad Money Coupons, and many more. Social media is about building conversation. When I’m involved, the conversation never stops. My work cannot be measured in pixels. It involves tasks way beyond that physical entity. I am working on complete study cases. In the meantime I am showing a series of snapshots taken from both client and personal work.
+          A user-centered mindset and sensitivity for design turned out to be the perfect fit when collaborating with agencies, clients and brands to develop digital concepts and solve problems together.
+This rough framework outlines my process of developing digital experiences:
+
+1. RESEARCH and gather the present state 
+2. STRUCTURE setup and content of the project 
+3. CONCEPT AND STRATEGY 
+4. CREATE, evaluate and iterate deliverables like
+Personas
+Site maps
+Use cases and scenarios
+User flow
+Sketches and Infographics
+Wireframes  
           </div>
       </div><!-- /.row -->
     </div><!-- .container -->
@@ -151,9 +164,11 @@ If you look under the hood of our online media arsenal, you will find powerful t
 
     <div class="container" id="demos">  
       <div class="row">
-          <div class="col-md-4"><h3>Demos</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
+          <div class="col-md-4"><h3>Multidisciplinary Designer</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
           
-          At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
+          At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!
+          Reference: http://www.rleonardi.com/
+        </div>
           
           <div class="col-md-4 col-md-offset-4"><h3>Title</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
 
@@ -358,6 +373,8 @@ If you look under the hood of our online media arsenal, you will find powerful t
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.12.0.min"><\/script>')</script>
     <script src="assets/js/libs/bootstrap/bootstrap.js"></script>
+    <script src="assets/js/libs/modernizr-custom.js"></script>
+    <script src="assets/js/test.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/libs/bootstrap/ie10-viewport-bug-workaround.js"></script>
     <script src="//localhost:35729/livereload.js"></script>

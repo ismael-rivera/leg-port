@@ -9070,3 +9070,8 @@ button.close {
     margin-top: 0;
   }
 }
+
+/* line 176, ../sass/site.scss */
+.nav {
+  font-size: 14px;
+}
