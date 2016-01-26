@@ -5,12 +5,31 @@
 @import "basefiles/bootstrap";
 
 body {
-    
+    // background: url('../img/homepage_legend_concept_02.png') no-repeat center center fixed;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // background-size: cover;
+    // -o-background-size: cover;
 }
 
-#content_wrapper{
+#site_wrapper_3{
 	position: relative;
 	/*display:table;*/
+	background: url('../img/layer_3.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	height:16200px;
+}
+#site_wrapper_2{
+	position: relative;
+	/*display:table;*/
+	background: url('../img/layer_2.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 	height:16200px;
 }	
 #customactions{

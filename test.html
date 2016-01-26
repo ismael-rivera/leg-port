@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forest</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        function rand(upper, lower) {
+            var range = (upper > lower) ? upper - lower : lower - upper;
+            var most = (upper > lower) ? upper : lower;
+            var number = most - (Math.round(Math.random() * range));
+            return number;
+        } // end rand
+
+        function setAttrs(element, attrs) {
+            for (var attr in attrs) {
+                element.setAttribute(attr, attrs[attr]);
+            }
+        } // end setAttrs
+
+        function cloudTrees(type, parent, number, zMin, zMax) {
+            var thingType = {
+                tree: ['tree-one',
+                    'tree-two',
+                    'tree-three',
+                    'tree-four',
+                    'tree-pine',
+                    'stone-one',
+                    'stone-two'],
+                cloud: ['cloud-one',
+                      'cloud-two',
+                      'cloud-three',
+                      'cloud-four',
+                      'cloud-five']
+            };
+            for (i = 0; i < (number); i++) {
+                var thisThing = thingType[type];
+                var target = document.getElementById(parent);
+                var tree = document.createElement('div');
+                var targetWidth = target.offsetWidth;
+                var scaler = (type == 'tree') ? 1 + rand(-5, 5) / 10 : 1 + rand(-5, 5);
+                var zPos = rand(zMin, zMax);
+                setAttrs(tree, {
+                    'id': type + '-' + i,
+                    'class': type + ' ' + thisThing[rand(0, 6)],
+                    'style': 'left:' + (rand(50 * zPos, targetWidth)) + 'px;-webkit-transform:translateX(' + zPos + 'px)scale(' + scaler + ');transform:translateX(' + zPos + 'px) scale(' + scaler + ');'
+                });
+                target.appendChild(tree);
+            }
+        } // end cloudTrees
+    </script>
+    <style>
+        
+        body {
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            background: #AFF;
+            overflow-y: hidden;
+        }
+        
+        #explain {
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            font-family: "Open Sans",Arial,sans-serif;
+            font-size: 3em;
+        }
+        
+        img {
+            margin: 0;
+        }
+        
+        #plax {
+            margin: 0;
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            overflow-y: hidden;
+            overflow-x: scroll;
+            -webkit-perspective: 150px;
+            perspective: 150px;
+            -moz-perspective:150px;
+            -webkit-perspective-origin: center;
+            perspective-origin: center;
+            -moz-perspective-origin: center;
+            -webkit-transition: 2s;
+            transition: 2s;
+        }
+        .plax-grp {
+            transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
+            display: inline-block;
+            float: left;
+            height: 500vh;
+        }
+        
+/* BEGIN FOREST CSS */
+        
+        .tree-one {
+            background: url(assets/img/tree_dec_1.png);
+            width: 201px;
+            height: 209px;
+        }
+        
+        .tree-two {
+            background: url(assets/img/tree_dec_2.png);
+            width: 226px;
+            height: 409px;
+        }
+        
+        .tree-three {
+            background: url(assets/img/tree_dec_3.png);
+            width: 325px;
+            height: 536px;
+        }
+        
+        .tree-four {
+            background: url(assets/img/tree_dec_4.png);
+            width: 325px;
+            height: 436px;
+        }
+        
+        .tree-pine {
+            background: url(assets/img/tree_pine.png);
+            width: 118px;
+            height: 229px;
+        }
+        
+        .stone-one {
+            background: url(assets/img/rock_1.png) bottom no-repeat;
+            width: 166px;
+            height: 67px;
+            background-size: 40%;
+        }
+        
+        .stone-two {
+            background: url(assets/img/rock_2.png) bottom no-repeat;
+            width: 166px;
+            height: 55px;
+            background-size: 40%;
+        }
+        
+        .tree,
+        .cloud {
+            position: absolute;
+            bottom: -5px;
+            -webkit-transform-origin: bottom;
+            -moz-transform-origin: bottom;
+            transform-origin: bottom;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+        
+        .cloud {
+            top: 0vh;
+            margin-top: -100vh;
+        }
+        
+        .cloud-one {
+            background-image: url(assets/img/cloud_1.png);
+            width: 322px;
+            height: 245px;
+        }
+        
+        .cloud-two {
+            background-image: url(assets/img/cloud_2.png);
+            width: 335px;
+            height: 101px;
+        }
+        
+        .cloud-three {
+            background-image: url(assets/img/cloud_3.png);
+            width: 374px;
+            height: 201px;
+        }
+        
+        .cloud-four {
+            background-image: url(assets/img/cloud_4.png);
+            width: 318px;
+            height: 201px;
+        }
+        
+        .cloud-five {
+            background-image: url(assets/img/cloud_5.png);
+            width: 374px;
+            height: 302px;
+        }
+        
+        .grnd {
+            display: block;
+            position: absolute;
+            left: -80%;
+            width: 260%;
+            height: 100vh;
+            bottom: 0;
+            background: #8A5;
+            -webkit-transform-origin: bottom;
+            -webkit-transform: rotateX(90deg);
+            transform-origin: bottom;
+            transform: rotateX(90deg);
+            -moz-transform-origin: bottom;
+            -moz-transform: rotateX(90deg);
+        }
+        
+        #forest {
+            display: inline-block;
+            position: relative;
+            width: 500vw;
+            margin-right: -10vw;
+            height: 100vh;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="plax">
+            <div id="forest" class="plax-grp">
+                <div class="grnd"></div>
+                <script>
+                $(document).ready(function(){
+                    cloudTrees('tree', 'forest', 400, 0, -450);
+                    cloudTrees('cloud', 'forest', 50, -500, -1000);
+                    
+                });
+                </script>
+            </div>
+    </div>
+<div id="explain">scroll »»</div>
+</body>
+
+</html>

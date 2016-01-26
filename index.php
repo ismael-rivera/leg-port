@@ -29,7 +29,7 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/libs/bootstrap/ie-emulation-modes-warning.js"></script>
-    <script src="assets/js/libs/jquery.stellar.js"></script>
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -39,6 +39,11 @@
   </head>
 
   <body>
+
+    <div class="container-fluid" id="site_wrapper_3" data-stellar-background-ratio="0.1">  
+      <div class="row">
+          <div class="container-fluid" id="site_wrapper_2" data-stellar-background-ratio="0.5">  
+      <div class="row">
 
     <nav class="nav navbar-static-top navbar-inverse">
       <div class="container">
@@ -368,19 +373,21 @@ Wireframes
         <p class="text-muted">Place sticky footer content here. </p>
       </div>
     </footer>
+
+   
+
+   </div>
+ </div> 
+  </div><!-- site /.row -->
+</div><!-- /#site_wrapper -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.12.0.min.js"><\/script>')</script>
-    <script>$.noConflict();// Code that uses other library's $ can follow here.</script>
-    <script>$(window).load(function(){  
-              document.write('<script src="assets/js/libs/bootstrap/bootstrap.js"><\/script>')  
-            });</script> 
-   
-    <script src="assets/js/libs/modernizr-custom.js"></script>
-    <script src="assets/js/test.js"></script>
+    <script src="assets/js/compiled/compiled.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/libs/bootstrap/ie10-viewport-bug-workaround.js"></script>
+    <!-- <script src="assets/js/libs/bootstrap/ie10-viewport-bug-workaround.js"></script>-->
+
     <script src="//localhost:35729/livereload.js"></script>
   </body>
 </html>

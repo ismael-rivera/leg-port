@@ -3,6 +3,9 @@ if (Modernizr.touch) {
 } else { 
     console.log('No Touch Screen');
 }
+
+
+
 jQuery( document ).ready(function( $ ) {
   // Code that uses jQuery's $ can follow here.
   $.stellar({
