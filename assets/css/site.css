@@ -8856,14 +8856,14 @@ button.close {
     display: none !important;
   }
 }
-/* line 8, ../sass/site.scss */
+/* line 11, ../sass/site.scss */
 #content_wrapper {
   position: relative;
   /*display:table;*/
   height: 16200px;
 }
 
-/* line 13, ../sass/site.scss */
+/* line 16, ../sass/site.scss */
 #customactions {
   position: fixed;
   z-index: 80;
@@ -8879,7 +8879,7 @@ button.close {
   top: 10px;
 }
 
-/* line 27, ../sass/site.scss */
+/* line 30, ../sass/site.scss */
 #bgmain {
   height: 16200px;
   display: block;
@@ -8890,7 +8890,7 @@ button.close {
   position: relative;
 }
 
-/* line 36, ../sass/site.scss */
+/* line 39, ../sass/site.scss */
 #hero {
   display: block;
   width: 50px;
@@ -8902,7 +8902,7 @@ button.close {
   top: 400px;
 }
 
-/* line 46, ../sass/site.scss */
+/* line 49, ../sass/site.scss */
 #hero_still {
   display: block;
   width: 50px;
@@ -8914,62 +8914,62 @@ button.close {
   top: 15700px;
 }
 
-/* line 58, ../sass/site.scss */
+/* line 61, ../sass/site.scss */
 .box1.outline, .box2.outline, .box3.outline {
   border: 1px solid white;
 }
 
-/* line 61, ../sass/site.scss */
+/* line 64, ../sass/site.scss */
 .blue {
   background-color: #3883d8;
 }
 
-/* line 64, ../sass/site.scss */
+/* line 67, ../sass/site.scss */
 .turqoise {
   background-color: #38ced7;
 }
 
-/* line 67, ../sass/site.scss */
+/* line 70, ../sass/site.scss */
 .brown {
   background-color: #a66f28;
 }
 
-/* line 70, ../sass/site.scss */
+/* line 73, ../sass/site.scss */
 .bordeaux {
   background-color: #953543;
 }
 
-/* line 73, ../sass/site.scss */
+/* line 76, ../sass/site.scss */
 .skin {
   background-color: #ED9F4C;
 }
 
-/* line 76, ../sass/site.scss */
+/* line 79, ../sass/site.scss */
 .black {
   background-color: #000000;
 }
 
-/* line 79, ../sass/site.scss */
+/* line 82, ../sass/site.scss */
 .white {
   background-color: #FFFFFF;
 }
 
-/* line 82, ../sass/site.scss */
+/* line 85, ../sass/site.scss */
 .red {
   background-color: #cf3535;
 }
 
-/* line 85, ../sass/site.scss */
+/* line 88, ../sass/site.scss */
 .green {
   background-color: #22d659;
 }
 
-/* line 88, ../sass/site.scss */
+/* line 91, ../sass/site.scss */
 .orange {
   background-color: #ea6300;
 }
 
-/* line 91, ../sass/site.scss */
+/* line 94, ../sass/site.scss */
 .box1 {
   min-width: 50px;
   width: 280px;
@@ -8979,13 +8979,13 @@ button.close {
   border: 1px solid #F00 !important;
 }
 
-/* line 99, ../sass/site.scss */
+/* line 102, ../sass/site.scss */
 .frame0 {
   height: 250px;
   background: url(../img/dive_00.png) no-repeat;
 }
 
-/* line 103, ../sass/site.scss */
+/* line 106, ../sass/site.scss */
 .frame1 {
   width: 280px;
   height: 280px;
@@ -8993,7 +8993,7 @@ button.close {
   background: url(../img/dive_01.png) no-repeat;
 }
 
-/* line 109, ../sass/site.scss */
+/* line 112, ../sass/site.scss */
 .frame2 {
   width: 280px;
   height: 280px;
@@ -9001,7 +9001,7 @@ button.close {
   background: url(../img/dive_02.png) no-repeat;
 }
 
-/* line 116, ../sass/site.scss */
+/* line 119, ../sass/site.scss */
 .frame2up {
   width: 280px;
   height: 280px;
@@ -9014,7 +9014,7 @@ button.close {
   transform: rotate(180deg);
 }
 
-/* line 127, ../sass/site.scss */
+/* line 130, ../sass/site.scss */
 .frame3 {
   width: 280px;
   height: 280px;
@@ -9022,7 +9022,7 @@ button.close {
   background: url(../img/dive_03.png) no-repeat;
 }
 
-/* line 133, ../sass/site.scss */
+/* line 136, ../sass/site.scss */
 .csspring_spacer10, .csspring_spacer5 {
   display: block;
   width: 100%;
@@ -9033,45 +9033,45 @@ button.close {
   overflow: visible;
 }
 
-/* line 142, ../sass/site.scss */
+/* line 145, ../sass/site.scss */
 .csspring_spacer10 {
   height: 1000px;
 }
 
-/* line 146, ../sass/site.scss */
+/* line 149, ../sass/site.scss */
 .csspring_spacer5 {
   height: 500px;
 }
 
-/* line 149, ../sass/site.scss */
+/* line 152, ../sass/site.scss */
 #prefooter {
   background-color: #cecece;
   padding-top: 30px;
   padding-bottom: 40px;
 }
-/* line 153, ../sass/site.scss */
+/* line 156, ../sass/site.scss */
 #prefooter ul, #prefooter h4 {
   padding-left: 10px;
 }
-/* line 155, ../sass/site.scss */
+/* line 158, ../sass/site.scss */
 #prefooter ul li, #prefooter ul h4, #prefooter h4 li, #prefooter h4 h4 {
   padding: 10px 0px;
 }
 
-/* line 158, ../sass/site.scss */
+/* line 161, ../sass/site.scss */
 .icon-bar {
   color: #000;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1360px) {
-  /* line 163, ../sass/site.scss */
+  /* line 166, ../sass/site.scss */
   .dropdown dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
   }
 }
 
-/* line 176, ../sass/site.scss */
+/* line 179, ../sass/site.scss */
 .nav {
   font-size: 14px;
 }

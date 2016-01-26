@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,6 +29,7 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/libs/bootstrap/ie-emulation-modes-warning.js"></script>
+    <script src="assets/js/libs/jquery.stellar.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -370,9 +371,12 @@ Wireframes
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.12.0.min"><\/script>')</script>
-    <script src="assets/js/libs/bootstrap/bootstrap.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.12.0.min.js"><\/script>')</script>
+    <script>$.noConflict();// Code that uses other library's $ can follow here.</script>
+    <script>$(window).load(function(){  
+              document.write('<script src="assets/js/libs/bootstrap/bootstrap.js"><\/script>')  
+            });</script> 
+   
     <script src="assets/js/libs/modernizr-custom.js"></script>
     <script src="assets/js/test.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
