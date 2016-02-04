@@ -42,9 +42,11 @@
 
     <div class="container-fluid" id="site_wrapper_3" data-stellar-background-ratio="0.1">  
       <div class="row">
-          <div class="container-fluid" id="site_wrapper_2" data-stellar-background-ratio="0.5">  
+          <div class="container-fluid" id="site_wrapper_2">  
       <div class="row">
-
+          <div class="container-fluid" id="bg1" data-stellar-background-ratio="0.5">  
+            <div class="row"></div>
+          </div>  
     <nav class="nav navbar-static-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -81,7 +83,7 @@
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /nav -->
-    <div class="container">
+    <div class="container-fluid" id="bgtest">
       <div class="starter-template">
         <h1>Crowdspring Studio:</h1>
         <h4>The Portfolio of Ismael Rivera </h4>
@@ -120,22 +122,17 @@ Wireframes
         <div class="col-md-offset-4"></div>
       </div>  
       <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-4">
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-4">
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           </div>
-          <div class="col-md-2 col-md-offset-4">
-          <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
-          <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
-          <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
-          </div>
-          <div class="col-md-2">
+          <div class="col-md-4">
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
@@ -143,22 +140,17 @@ Wireframes
 
       </div><!-- /.row -->
       <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-4">
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-4">
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           </div>
-          <div class="col-md-2 col-md-offset-4">
-          <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
-          <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
-          <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
-          </div>
-          <div class="col-md-2">
+          <div class="col-md-4">
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
