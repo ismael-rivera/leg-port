@@ -1,0 +1,26 @@
+/* line 1, ../sass/sections.scss */
+#bgtest {
+  background: url("../img/test1.svg") no-repeat;
+  overflow: visible;
+  background-size: cover;
+  height: 3000px;
+  background-position: 0px 200px;
+}
+
+/* line 8, ../sass/sections.scss */
+#start {
+  background: url("../img/test1.svg") repeat-y;
+  overflow: visible;
+  background-size: cover;
+  height: 3000px;
+  background-position: 0px -400px;
+}
+
+/* line 15, ../sass/sections.scss */
+#portfolio {
+  background: url("../img/test2.svg") no-repeat;
+  overflow: visible;
+  background-size: cover;
+  height: 3000px;
+  background-position: 0px 300px;
+}

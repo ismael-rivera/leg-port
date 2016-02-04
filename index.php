@@ -23,6 +23,7 @@
      <!-- Custom styles for the website -->
 
     <link href="assets/css/site.css" rel="stylesheet">
+    <link href="assets/css/sections.css" rel="stylesheet">
     <link href="assets/css/forms.css" rel="stylesheet">
     <link href="assets/css/footer.css" rel="stylesheet">
 
@@ -47,7 +48,7 @@
           <div class="container-fluid" id="bg1" data-stellar-background-ratio="0.5">  
             <div class="row"></div>
           </div>  
-    <nav class="nav navbar-static-top navbar-inverse">
+    <nav class="nav navbar-static-top navbar">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
@@ -90,8 +91,7 @@
         <p class="lead">Design and Development for the Mobile Web</p>
       </div>
     </div><!-- /.container -->
-    <div class="csspring_spacer10"></div> 
-    <div class="container" id="start">
+    <div class="container-fluid" id="start">
       <div class="row">
           <div class="col-md-4"><h3>Start</h3>I have created websites for Downtown Fort Wayne, Club Soda, Coney Island, Three Rivers Festival, FWDC, and many others over the years. I believe in clean, sleek, and unique designs that speak to the mission of my clients.
           Joepixel is not your average web development firm. We bring your business dreams into reality. You will receive the best experience, great turn around times and exceptional customer service. We offer a wide range of web services, from simple HTML email, to complex invoicing and payment systems. We use the latest technology to leverage the best possible result for your needs or the needs of your clients.
@@ -114,9 +114,8 @@ Sketches and Infographics
 Wireframes  
           </div>
       </div><!-- /.row -->
-    </div><!-- .container -->
-    <div class="csspring_spacer10"></div>  
-    <div class="container" id="portfolio">
+    </div><!-- .container --> 
+    <div class="container-fluid" id="portfolio">
       <div class="row">
         <div class="col-md-4"><h3>Portfolio</h3></div>
         <div class="col-md-offset-4"></div>
