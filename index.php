@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Crowdspring Studio: Design and Development for Mobile Web</title>
+    <title>Crowdorchid Studio: Design and Development for Mobile Web</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/libs/bootstrap/bootstrap.css" rel="stylesheet">
@@ -41,18 +41,18 @@
 
   <body>
 
-    <div class="container-fluid" id="site_wrapper_3" data-stellar-background-ratio="0.1">  
-      <div class="row">
+<!--     <div class="container-fluid" id="site_wrapper_3" data-stellar-background-ratio="0.1">   -->
+ <!--      <div class="row">
           <div class="container-fluid" id="site_wrapper_2">  
       <div class="row">
           <div class="container-fluid" id="bg1" data-stellar-background-ratio="0.5">  
             <div class="row"></div>
-          </div>  
+          </div>  --> 
     <nav class="nav navbar-static-top navbar">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
-              <img alt="Crowdspring Studio" src="...">
+              <img alt="Crowdorchid Studio" src="...">
             </a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -63,14 +63,14 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="fa fa-home" href="#start">Start</a></li>
+            <li><a class="fa fa-home" href="#aboutme">About Me</a></li>
             <li class="dropdown">
                   <a class="fa fa-info dropdown-toggle" data-toggle="dropdown" href="#">
                   Portfolio<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="fa fa-info" href="#projects">Client Work</a></li>
-                  <li><a class="fa fa-info" href="#demos">Demos</a></li>
+                  <li><a class="fa fa-info" href="#demos">Disciplines</a></li>
                   <li><a class="fa fa-info" href="#projects">Projects</a></li>
                 </ul>
             </li>
@@ -84,21 +84,35 @@
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /nav -->
-    <div class="container-fluid" id="bgtest">
+
+
+    <div class="container-fluid" id="banner">
       <div class="starter-template">
-        <h1>Crowdspring Studio:</h1>
-        <h4>The Portfolio of Ismael Rivera </h4>
-        <p class="lead">Design and Development for the Mobile Web</p>
+        <h1>Crowdorchid Studio:</h1>
+        <p class="lead">ilustração e desenvolvimento para a web</p>
       </div>
     </div><!-- /.container -->
-    <div class="container-fluid" id="start">
+
+
+    <div class="container-fluid section-title" id="aboutme">
       <div class="row">
-          <div class="col-md-4"><h3>Start</h3>I have created websites for Downtown Fort Wayne, Club Soda, Coney Island, Three Rivers Festival, FWDC, and many others over the years. I believe in clean, sleek, and unique designs that speak to the mission of my clients.
+          <div class="col-md-12">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12"><h3>About Me</h3></div>
+              </div>
+            </div> 
+          </div>
+      </div>      
+    </div> 
+    <div class="container section-pad">
+      <div class="row">
+          <div class="col-md-4">I have created websites for Downtown Fort Wayne, Club Soda, Coney Island, Three Rivers Festival, FWDC, and many others over the years. I believe in clean, sleek, and unique designs that speak to the mission of my clients.
           Joepixel is not your average web development firm. We bring your business dreams into reality. You will receive the best experience, great turn around times and exceptional customer service. We offer a wide range of web services, from simple HTML email, to complex invoicing and payment systems. We use the latest technology to leverage the best possible result for your needs or the needs of your clients.
 
 If you look under the hood of our online media arsenal, you will find powerful technologies such as Flash, ASP, PHP, MySQL, XHTML, HTML5, CSS, XML, Javascript, JSON, AJAX and many search engine optimization (SEO) techniques. We pick and choose amongst the best peforming web technology to maximize your potential.
           </div>
-          <div class="col-md-4 col-md-offset-4"><h3>Title</h3>I manage the social media accounts for Downtown Fort Wayne, Waiter on the Way, Fox & Fox, Mad Money Coupons, and many more. Social media is about building conversation. When I’m involved, the conversation never stops. My work cannot be measured in pixels. It involves tasks way beyond that physical entity. I am working on complete study cases. In the meantime I am showing a series of snapshots taken from both client and personal work.
+          <div class="col-md-4 col-md-offset-4">I manage the social media accounts for Downtown Fort Wayne, Waiter on the Way, Fox & Fox, Mad Money Coupons, and many more. Social media is about building conversation. When I’m involved, the conversation never stops. My work cannot be measured in pixels. It involves tasks way beyond that physical entity. I am working on complete study cases. In the meantime I am showing a series of snapshots taken from both client and personal work.
           A user-centered mindset and sensitivity for design turned out to be the perfect fit when collaborating with agencies, clients and brands to develop digital concepts and solve problems together.
 This rough framework outlines my process of developing digital experiences:
 
@@ -115,12 +129,21 @@ Wireframes
           </div>
       </div><!-- /.row -->
     </div><!-- .container --> 
-    <div class="container-fluid" id="portfolio">
+
+
+
+    <div class="container-fluid section-title" id="portfolio">
       <div class="row">
-        <div class="col-md-4"><h3>Portfolio</h3></div>
-        <div class="col-md-offset-4"></div>
-      </div>  
+          <div class="col-md-12">
+            <div class="container">
+              <div class="row"><div class="col-md-12"><h3>Portfolio</h3></div></div>
+            </div> 
+          </div>
+      </div>      
+    </div> 
+    <div class="container section-pad"> 
       <div class="row">
+          
           <div class="col-md-4">
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
           <a href="#" class="thumbnail img-responsive"><img src="assets/img/download.svg" alt="thumbnail"></a>
@@ -156,26 +179,33 @@ Wireframes
           </div>
       </div><!-- /.row -->
     </div><!-- .container -->
+ 
 
-     <div class="csspring_spacer10"></div> 
-
-    <div class="container" id="demos">  
+    <div class="container-fluid section-title" id="Disciplines">
       <div class="row">
-          <div class="col-md-4"><h3>Multidisciplinary Designer</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
+          <div class="col-md-12">
+            <div class="container">
+              <div class="row"><div class="col-md-12"><h3>Multidisciplinary Designer</h3></div></div>
+            </div> 
+          </div>
+      </div>      
+    </div>  
+    <div class="container section-pad">    
+      <div class="row">
+          <div class="col-md-4"><h3>Projects</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
           
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!
           Reference: http://www.rleonardi.com/
-        </div>
+          </div>
           
-          <div class="col-md-4 col-md-offset-4"><h3>Title</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
+          <div class="col-md-4 col-md-offset-4"><h3>Projects</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
 
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
       </div><!-- /.row -->
     </div><!-- .container --> 
+ 
 
-    <div class="csspring_spacer10"></div>  
-
-    <div class="container" id="projects">  
+    <div class="container section-pad" id="projects"> 
       <div class="row">
           <div class="col-md-4"><h3>Projects</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
           
@@ -189,7 +219,7 @@ Wireframes
 
     <div class="csspring_spacer10"></div>  
 
-    <div class="container" id="mystory">   
+    <div class="container section-pad" id="mystory">   
       <div class="row">
           <div class="col-md-4"><h3>My Story</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
           
@@ -202,39 +232,48 @@ Wireframes
       </div><!-- /.row -->
     </div><!-- .container --> 
 
-    <div class="csspring_spacer10"></div>  
-
-    <div class="container" id="cvresume">    
+     
+    <div class="container-fluid section-title" id="cvresume">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="container">
+              <div class="row"><div class="col-md-12"><h3>CV / Resume</h3></div></div>
+            </div> 
+          </div>
+      </div>      
+    </div> 
+    <div class="container section-pad">    
       <div class="row">
           <div class="col-md-4"><h3>CV/Resume</h3>Veniam quis nostrud exerci tation ullamcorper suscipitlobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
               
-          At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!
+          At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam qui
           </div>
           <div class="col-md-4 col-md-offset-4"><h3>Title</h3>Veniam quis nostrud exerci tation ullamcorper
           suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
 
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!
           </div>
-      </div><!-- /.row -->
-    </div><!-- .container -->
-
-    <div class="csspring_spacer10"></div> 
-
-    <div class="container" id="spacer">  
+      </div><!-- /.row --> 
       <div class="row">
           <div class="col-md-4"><h3>Spacer</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
           
           At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
           
-          <div class="col-md-4 col-md-offset-4"><h3>Title</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
-
-          At vero eros et accumsan et, iusto odio dignissim qui. Nunc nobis videntur parum clari fiant sollemnes in. Minim veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl. Wisi enim ad ut aliquip ex ea commodo!</div>
+          <div class="col-md-4 col-md-offset-4"><h3>Title</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium </div>
       </div><!-- /.row -->
     </div><!-- .container -->
 
-    <div class="csspring_spacer10"></div> 
-
-    <div class="container" id="blog">  
+ 
+    <div class="container-fluid section-title" id="blog">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="container">
+              <div class="row"><div class="col-md-12"><h3>Featured Posts</h3></div></div>
+            </div> 
+          </div>
+      </div>      
+    </div> 
+    <div class="container section-pad">  
       <div class="row">
           <div class="col-md-4"><h3>Headline1</h3>Veniam quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo. Qui facit eorum claritatem Investigationes demonstraverunt lectores legere me. Mutationem consuetudium lectorum mirum est notare quam littera gothica quam nunc.
 
@@ -256,9 +295,18 @@ Wireframes
       </div><!-- /.row -->  
     </div><!-- .container -->
 
-    <div class="csspring_spacer10"></div> 
 
-    <div class="container" id="contactme">
+
+    <div class="container-fluid section-title" id="contactme">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="container">
+              <div class="row"><div class="col-md-12"><h3>Contact Me</h3></div></div>
+            </div> 
+          </div>
+      </div>      
+    </div> 
+    <div class="container section-pad">
       <form>
       <div class="row">
         <div class="col-md-1"></div>
@@ -323,7 +371,7 @@ Wireframes
     <div class="csspring_spacer10"></div>
     <div class="container-fluid" id="prefooter"> 
         <div class="row">
-          <div class="col-md-2"></div>
+          <div class="col-md-1"></div>
           <div class="col-md-2">
             <h4>Column 1</h4>
             <ul>
@@ -356,21 +404,29 @@ Wireframes
               <li>Linkings of Tahoma</li>
             </ul>
           </div>
-          <div class="col-md-2"></div> 
+          <div class="col-md-2">
+            <h4>Column 1</h4>
+            <ul>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+              <li>Linkings of Tahoma</li>
+            </ul>
+          </div>
+          <div class="col-md-1"></div> 
         </div><!-- /.row -->
     </div>
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here. </p>
+        <p class="text-muted">Place sticky footer content here.</p>
       </div>
     </footer>
 
    
 
-   </div>
- </div> 
-  </div><!-- site /.row -->
-</div><!-- /#site_wrapper -->
+   <!-- </div>
+ </div>  -->
+ <!--  </div> --><!-- site /.row -->
+<!-- </div> --><!-- /#site_wrapper -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -87,40 +87,38 @@ body {
 	top: 15700px;
 	}
 
+$co-blue: #356086;
+$co-red: #b11d28;	
+
+
+
+.navbar-toggle{
+	background-color: #252525;
+}
+nav{
+	background-color: $co-red;	
+	a{color: #fff;}
+}
+.navbar-header{
+}
+.icon-bar{background-color: #fff;}
 
 .box1.outline, .box2.outline, .box3.outline {
 	border: 1px solid white;
 }
-.blue {
-	background-color: #3883d8;
+
+.section-title{
+	background-color: $co-red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	h3{color: #fff;}
 }
-.turqoise {
-	background-color: #38ced7;
+
+.section-pad{
+	padding-top: 45px;
+	padding-bottom: 95px;
 }
-.brown {
-	background-color: #a66f28;
-}
-.bordeaux {
-	background-color: #953543;
-}
-.skin {
-	background-color: #ED9F4C;
-}
-.black {
-	background-color: #000000;
-}
-.white {
-	background-color: #FFFFFF;
-}
-.red {
-	background-color: #cf3535;
-}
-.green {
-	background-color: #22d659;
-}
-.orange {
-	background-color: #ea6300;
-}
+
 .box1 {
 	min-width: 50px;
 	width: 280px;
@@ -163,6 +161,11 @@ body {
 	border: 1px solid #F00 !important;
 	background: url(../img/dive_03.png) no-repeat;
 }
+
+.csspring_spacer10{
+	height:10px;
+}
+
 .csspring_spacer10, .csspring_spacer5{
 	display:block;
 	width:100%;
@@ -172,7 +175,7 @@ body {
     position: relative;
     overflow: visible;
 }
-.csspring_spacer10{
+.csspring_spacer1000{
 	height:1000px;
 }
 
@@ -180,7 +183,8 @@ body {
 	height:500px;
 }
 #prefooter {
-	background-color:#cecece;
+	color: #fff;
+	background-color:$co-blue;
 	padding-top:30px;
 	padding-bottom:40px;
 	ul, h4{
@@ -188,6 +192,23 @@ body {
 	li, h4{padding:10px 0px}
 	}
 }
+
+.footer {
+  color: #fff;	
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: $co-blue;
+}
+
+.container .text-muted {
+  margin: 10px 0;
+  color: #fff;
+}
+
+
 .icon-bar{color:#000;}
 
 .dropdown{
