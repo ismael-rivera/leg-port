@@ -42,6 +42,21 @@ body {
 // }
 }
 
+$half-hero-width: 50px;
+
+#gamezone{}
+#hero{
+	border: 1px solid #003CFF;
+	display: block;
+	width: 280px;
+	height: 280px;
+	background: #F00;
+	position: fixed;
+	z-index: 20;
+	left: 40%;
+	}
+.mount-tops{border: 1px solid #0F0; height: 600px;}
+.mounts{border: 1px solid #F00; height: 8000px;}
 	
 #customactions{
 	position: fixed;
@@ -66,16 +81,7 @@ body {
 	border: 1px solid #0F0;
 	position: relative;
 	}
-#hero{
-	display: block;
-	width: 50px;
-	height: 50px;
-	background: #F00;
-	position: fixed;
-	z-index: 20;
-	left: 50%;
-	top: 400px;
-	}
+
 #hero_still{
 	display: block;
 	width: 50px;
