@@ -23,7 +23,9 @@
 
 
      <!-- Custom styles for the website -->
-
+    <link rel="stylesheet" href="assets/css/demos/normalize.css" type="text/css">
+<link rel="stylesheet" href="assets/css/demos/style.css" type="text/css">
+<link rel="stylesheet" href="assets/css/demos/examples.css" type="text/css">
     <link href="assets/css/site.css" rel="stylesheet">
     <link href="assets/css/sections.css" rel="stylesheet">
     <link href="assets/css/forms.css" rel="stylesheet">
@@ -31,6 +33,7 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" src="assets/js/libs/jquery-1.12.0.min.js"></script>
     <script src="assets/js/libs/bootstrap/ie-emulation-modes-warning.js"></script>
     <script type="text/javascript" src="assets/js/libs/greensock/TweenMax.min.js"></script>
     <script type="text/javascript" src="assets/js/libs/scrollmagic/ScrollMagic.js"></script>
@@ -93,25 +96,32 @@
         <div class="row">
           <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
           <div class="col-sm-2 col-md-2">
-              .col-md-3
-              <div id="hero">hero</div>
+                  
           </div>
           <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
         </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 mount-tops">.col-md-3</div>
+        <div id="bridge" class="row">
+          <div class="col-sm-12 col-md-12 mount-tops">
+              <section class="demo">
+                    <div class="spacer s1"></div>
+                    <div id="trigger" class="spacer s1"></div>
+                    <div class="spacer s0"></div>
+                    <div id="pin" class="box1"><p>hero</p></div>
+                    <div class="spacer s2"></div>
+              </section>
+          </div>
         </div>
-        <div class="row">
+        <div id="mountaintops" class="row">
           <div class="col-sm-6 col-md-3 mount-tops">.col-md-3</div>
           <div class="hidden-xs col-md-6">.col-md-3</div>
           <div class="col-sm-6 col-md-3 mount-tops">.col-md-3</div>
         </div>
-        <div class="row">
+        <div id="mountain" class="row">
           <div class="col-sm-6 col-md-4 mounts">.col-md-3</div>
           <div class="hidden-xs col-md-4">.col-md-3</div>
           <div class="col-sm-6 col-md-4 mounts">.col-md-3</div>
         </div>
-        <div class="row">
+        <div id="therest" class="row">
           <div class="col-sm-6 col-md-5 mounts">.col-md-3</div>
           <div class="hidden-xs col-md-2">.col-md-3</div>
           <div class="col-sm-6 col-md-5 mounts">.col-md-3</div>
@@ -130,6 +140,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="assets/js/hero.js"></script>
     <script src="assets/js/compiled/compiled.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
