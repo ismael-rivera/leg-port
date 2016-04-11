@@ -14,16 +14,16 @@ $(function () { // wait for document ready
 							//$(window).scroll(function(){
 							 	if ($(this).scrollTop() < 2520) {
 							         // apply effects and animations
-							 		$("#pin").addClass("frame0");
+							 		$("#hero").addClass("frame0");
 							     }
 							     if ($(this).scrollTop() > 15890) {
 							         // apply effects and animations
-							 		$("#pin").removeClass("frame0").addClass("frame3");
+							 		$("#hero").removeClass("frame0").addClass("frame3");
 							     } 
 							// });
 
 							
-							// show pin state
+							// show hero state
 							function updateBox1 (e) {
 								if (e.type == "enter") {
 									inout = "inside";
@@ -36,15 +36,20 @@ $(function () { // wait for document ready
 							// build scenes
 							//Trigger1
 							var scene1 = new ScrollMagic.Scene({triggerHook: 0.3, triggerElement: "#trigger", duration: 2520, offset: 0});
-								scene1.setPin("#pin");
-								scene1.setClassToggle("#pin", "frame0");
+								scene1.setPin("#hero");
+								scene1.setClassToggle("#hero", "frame0");
 								scene1.on("enter leave", updateBox1);
 								scene1.addIndicators(); // add indicators (requires plugin)
 								//scene1.on("enter", function (e) {
 								 	//$("#pin").removeClass("frame0");
+								scene1.on("progress", function (e) {
+						 			$("#progress").text(e.scrollDirection);
+								}); 	
+
+								 	
 								 	//console.log(slamdown);
 								// 	if(controller.info("scrollDirection") === "REVERSE"){
-								// 		$("#pin").addClass("frame2up")
+								// 		$("#hero").addClass("frame2up")
 								// 				 .removeClass("frame2");
 								// 	};
 								// 	if(controller.info("scrollDirection") === "FORWARD"){
@@ -53,7 +58,7 @@ $(function () { // wait for document ready
 								// 	};
 								//})
 								// .on("leave", function (e) {
-						 	// 		$("#pin").addClass("frame3")
+						 	// 		$("#hero").addClass("frame3")
 						 	// 				 .removeClass("frame2");
 						 	// 		slamdown = true;
 						 	// 		console.log(0+1);
@@ -67,7 +72,7 @@ $(function () { // wait for document ready
 							function updateBox2 (e) {
 								if (e.type == "enter") {
 									inout = "inside";
-									$("#pin").removeClass("frame0");
+									$("#hero").removeClass("frame0");
 									console.log(inout + " of scene 2");
 								} else {
 									inout = "outside";
@@ -75,8 +80,8 @@ $(function () { // wait for document ready
 								}
 							}
 							var scene2 = new ScrollMagic.Scene({triggerHook: 0.3, triggerElement: "#trigger", duration: 5670, offset: 2530});
-								scene2.setPin("#pin");
-								scene2.setClassToggle("#pin", "frame1");
+								scene2.setPin("#hero");
+								scene2.setClassToggle("#hero", "frame1");
 								scene2.on("enter leave", updateBox2);
 								
 
@@ -87,7 +92,7 @@ $(function () { // wait for document ready
 								scene2.addIndicators(); // add indicators (requires plugin)
 								//.on("enter", function (e){
 								// 	if(slamdown === false){
-								// 		$("#pin").addClass("frame1")
+								// 		$("#hero").addClass("frame1")
 								// 				 .removeClass("frame0");
 								// 	}
 								// })
@@ -95,7 +100,7 @@ $(function () { // wait for document ready
 								 	//$("#pin").removeClass("frame0");
 								 	//console.log(slamdown);
 								// 	if(controller.info("scrollDirection") === "REVERSE"){
-								// 		$("#pin").addClass("frame2up")
+								// 		$("#hero").addClass("frame2up")
 								// 				 .removeClass("frame2");
 								// 	};
 								// 	if(controller.info("scrollDirection") === "FORWARD"){
@@ -104,7 +109,7 @@ $(function () { // wait for document ready
 								// 	};
 								//})
 								// .on("leave", function (e) {
-						 	// 		$("#pin").addClass("frame3")
+						 	// 		$("#hero").addClass("frame3")
 						 	// 				 .removeClass("frame2");
 						 	// 		slamdown = true;
 						 	// 		console.log(0+1);
@@ -116,7 +121,7 @@ $(function () { // wait for document ready
 							function updateBox3 (e) {
 								if (e.type == "enter") {
 									inout = "inside";
-									$("#pin").removeClass("frame0");
+									$("#hero").removeClass("frame0");
 									console.log(inout + " of scene 3");
 								} else {
 									inout = "outside";
@@ -124,9 +129,9 @@ $(function () { // wait for document ready
 								}
 							}
 
-							var scene3 = new ScrollMagic.Scene({triggerHook: 0.3, triggerElement: "#trigger", duration: 7880, offset: 8210});
-								scene3.setPin("#pin");
-								scene3.setClassToggle("#pin", "frame2");
+							var scene3 = new ScrollMagic.Scene({triggerHook: 0.3, triggerElement: "#trigger", duration: 8380, offset: 8210});
+								scene3.setPin("#hero");
+								scene3.setClassToggle("#hero", "frame2");
 								scene3.on("enter leave", updateBox3);
 								scene3.addIndicators(); // add indicators (requires plugin)
 								scene3.addTo(controller);
@@ -136,27 +141,27 @@ $(function () { // wait for document ready
 							// 		$("#pin").addClass("frame3");
 							// 	}
 							// }
-							var scene4 = new ScrollMagic.Scene({triggerHook: 0.3, triggerElement: "#trigger", duration: 200, offset: 16190});
-							 	scene4.setPin("#pin");
-							 	scene4.setClassToggle("#pin", "frame3");
+							var scene4 = new ScrollMagic.Scene({triggerHook: 0.3, triggerElement: "#trigger", duration: 200, offset: 16590});
+							 	scene4.setPin("#hero");
+							 	scene4.setClassToggle("#hero", "frame3");
 							 	//scene4.on("enter leave", updateBox);
 							 	scene4.addIndicators(); // add indicators (requires plugin)
 							 	scene4.addTo(controller);
 								// .on("enter", function (e){
 								// 	console.log("enter");
 								// 	if(slamdown === true){
-								// 		$("#pin").addClass("frame2up")
+								// 		$("#hero").addClass("frame2up")
 								// 				 .removeClass("frame3");
 								// 	}
 								// })
 								// .on("update", function (e) {
 								// 	//console.log(slamdown);
 								// 	if(controller.info("scrollDirection") === "REVERSE"){
-								// 		$("#pin").addClass("frame2up")
+								// 		$("#hero").addClass("frame2up")
 								// 				 .removeClass("frame2");
 								// 	};
 								// 	if(controller.info("scrollDirection") === "FORWARD"){
-								// 		$("#pin").addClass("frame2")
+								// 		$("#hero").addClass("frame2")
 								// 				 .removeClass("frame2up");
 								// 	};
 								// })

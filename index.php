@@ -96,7 +96,7 @@
         <div class="row">
           <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
           <div class="col-sm-2 col-md-2">
-                  
+                  <div id="progress"></div>
           </div>
           <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
         </div>
@@ -106,7 +106,7 @@
                     <div class="spacer s1"></div>
                     <div id="trigger" class="spacer s1"></div>
                     <div class="spacer s0"></div>
-                    <div id="pin" class="box1"><p>hero</p></div>
+                    <div id="hero" class="frame0"><p>hero</p></div>
                     <div class="spacer s2"></div>
               </section>
           </div>
