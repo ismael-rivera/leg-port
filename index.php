@@ -23,13 +23,14 @@
 
 
      <!-- Custom styles for the website -->
-    <link rel="stylesheet" href="assets/css/demos/normalize.css" type="text/css">
+<!-- <link rel="stylesheet" href="assets/css/demos/normalize.css" type="text/css">
 <link rel="stylesheet" href="assets/css/demos/style.css" type="text/css">
-<link rel="stylesheet" href="assets/css/demos/examples.css" type="text/css">
+<link rel="stylesheet" href="assets/css/demos/examples.css" type="text/css"> -->
     <link href="assets/css/site.css" rel="stylesheet">
     <link href="assets/css/sections.css" rel="stylesheet">
     <link href="assets/css/forms.css" rel="stylesheet">
     <link href="assets/css/footer.css" rel="stylesheet">
+    <link href="assets/css/parallax.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -92,6 +93,11 @@
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /nav -->
+    <div id="parallaxzone" class="container-fluid">
+        <div class="row">
+              <div class="hidden-xs col-sm-12 col-md-12"><?php include("parallax.php"); ?></div>
+        </div>
+    </div>
     <div id="gamezone" class="container-fluid">
         <div class="row">
           <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
