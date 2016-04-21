@@ -93,11 +93,6 @@
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /nav -->
-    <div id="parallaxzone" class="container-fluid">
-        <div class="row">
-              <div class="hidden-xs col-sm-12 col-md-12"><?php include("parallax.php"); ?></div>
-        </div>
-    </div>
     <div id="gamezone" class="container-fluid">
         <div class="row">
           <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
