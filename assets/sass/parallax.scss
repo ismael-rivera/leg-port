@@ -10,16 +10,17 @@ body{
 }
 
 .parallax {
+  width:100%;
   perspective: 100px;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   position: absolute;
   top: 0;
   left: 50%;
   right: 0;
   bottom: 0;
-  margin-left: -1500px;
+  // margin-left: -1500px;
 }
 
 .parallax__layer{
@@ -42,7 +43,7 @@ body{
   top: 100%;
   left: 0;
   right: 0;
-  height: 2000px;
+  // height: 2000px;
   z-index: 2;
 }
 

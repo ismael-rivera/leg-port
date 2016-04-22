@@ -44,7 +44,11 @@ body {
 
 $half-hero-width: 50px;
 
-#gamezone{}
+#gamezone{
+background: url(../img/test2.svg) no-repeat;
+background-size: 100% 100%;
+
+}
 #hero{
 	border: 1px solid #003CFF;
 	display: block;
@@ -56,7 +60,7 @@ $half-hero-width: 50px;
 	left: 40%;
 	}
 .mount-tops{
-	border: 1px solid #0F0; 
+	border: 1px solid #fff; 
 	height: 600px;
 }
 .mounts{border: 1px solid #F00; height: 8000px;}
