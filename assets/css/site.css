@@ -8856,13 +8856,13 @@ button.close {
     display: none !important;
   }
 }
-/* line 47, ../sass/site.scss */
+/* line 46, ../sass/site.scss */
 #gamezone {
   background: url(../img/test2.svg) no-repeat;
   background-size: 100% 100%;
 }
 
-/* line 52, ../sass/site.scss */
+/* line 50, ../sass/site.scss */
 #hero {
   border: 1px solid #003CFF;
   display: block;
@@ -8873,19 +8873,19 @@ button.close {
   left: 40%;
 }
 
-/* line 62, ../sass/site.scss */
+/* line 60, ../sass/site.scss */
 .mount-tops {
   border: 1px solid #fff;
   height: 600px;
 }
 
-/* line 66, ../sass/site.scss */
+/* line 64, ../sass/site.scss */
 .mounts {
   border: 1px solid #F00;
   height: 8000px;
 }
 
-/* line 68, ../sass/site.scss */
+/* line 66, ../sass/site.scss */
 #customactions {
   position: fixed;
   z-index: 80;
@@ -8901,7 +8901,7 @@ button.close {
   top: 10px;
 }
 
-/* line 82, ../sass/site.scss */
+/* line 80, ../sass/site.scss */
 #bgmain {
   height: 16200px;
   display: block;
@@ -8912,7 +8912,7 @@ button.close {
   position: relative;
 }
 
-/* line 92, ../sass/site.scss */
+/* line 90, ../sass/site.scss */
 #hero_still {
   display: block;
   width: 50px;
@@ -8924,48 +8924,48 @@ button.close {
   top: 15700px;
 }
 
-/* line 108, ../sass/site.scss */
+/* line 106, ../sass/site.scss */
 .navbar-toggle {
   background-color: #252525;
 }
 
-/* line 111, ../sass/site.scss */
+/* line 109, ../sass/site.scss */
 nav {
   background-color: #b11d28;
 }
-/* line 113, ../sass/site.scss */
+/* line 111, ../sass/site.scss */
 nav a {
   color: #fff;
 }
 
-/* line 117, ../sass/site.scss */
+/* line 115, ../sass/site.scss */
 .icon-bar {
   background-color: #fff;
 }
 
-/* line 119, ../sass/site.scss */
+/* line 117, ../sass/site.scss */
 .box1.outline, .box2.outline, .box3.outline {
   border: 1px solid white;
 }
 
-/* line 123, ../sass/site.scss */
+/* line 121, ../sass/site.scss */
 .section-title {
   background-color: #b11d28;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 127, ../sass/site.scss */
+/* line 125, ../sass/site.scss */
 .section-title h3 {
   color: #fff;
 }
 
-/* line 130, ../sass/site.scss */
+/* line 128, ../sass/site.scss */
 .section-pad {
   padding-top: 45px;
   padding-bottom: 95px;
 }
 
-/* line 135, ../sass/site.scss */
+/* line 133, ../sass/site.scss */
 .box1 {
   min-width: 50px;
   width: 280px;
@@ -8975,13 +8975,13 @@ nav a {
   border: 1px solid #F00 !important;
 }
 
-/* line 143, ../sass/site.scss */
+/* line 141, ../sass/site.scss */
 .frame0 {
   height: 250px;
   background: url(../img/dive_00.png) no-repeat;
 }
 
-/* line 147, ../sass/site.scss */
+/* line 145, ../sass/site.scss */
 .frame1 {
   width: 280px;
   height: 280px;
@@ -8989,7 +8989,7 @@ nav a {
   background: url(../img/dive_01.png) no-repeat;
 }
 
-/* line 153, ../sass/site.scss */
+/* line 151, ../sass/site.scss */
 .frame2 {
   width: 280px;
   height: 280px;
@@ -8997,7 +8997,7 @@ nav a {
   background: url(../img/dive_02.png) no-repeat;
 }
 
-/* line 160, ../sass/site.scss */
+/* line 158, ../sass/site.scss */
 .frame2up {
   width: 280px;
   height: 280px;
@@ -9010,7 +9010,7 @@ nav a {
   transform: rotate(180deg);
 }
 
-/* line 171, ../sass/site.scss */
+/* line 169, ../sass/site.scss */
 .frame3 {
   width: 280px;
   height: 280px;
@@ -9018,12 +9018,12 @@ nav a {
   background: url(../img/dive_03.png) no-repeat;
 }
 
-/* line 178, ../sass/site.scss */
+/* line 176, ../sass/site.scss */
 .csspring_spacer10 {
   height: 10px;
 }
 
-/* line 182, ../sass/site.scss */
+/* line 180, ../sass/site.scss */
 .csspring_spacer10, .csspring_spacer5 {
   display: block;
   width: 100%;
@@ -9034,33 +9034,33 @@ nav a {
   overflow: visible;
 }
 
-/* line 191, ../sass/site.scss */
+/* line 189, ../sass/site.scss */
 .csspring_spacer1000 {
   height: 1000px;
 }
 
-/* line 195, ../sass/site.scss */
+/* line 193, ../sass/site.scss */
 .csspring_spacer5 {
   height: 500px;
 }
 
-/* line 198, ../sass/site.scss */
+/* line 196, ../sass/site.scss */
 #prefooter {
   color: #fff;
   background-color: #356086;
   padding-top: 30px;
   padding-bottom: 40px;
 }
-/* line 203, ../sass/site.scss */
+/* line 201, ../sass/site.scss */
 #prefooter ul, #prefooter h4 {
   padding-left: 10px;
 }
-/* line 205, ../sass/site.scss */
+/* line 203, ../sass/site.scss */
 #prefooter ul li, #prefooter ul h4, #prefooter h4 li, #prefooter h4 h4 {
   padding: 10px 0px;
 }
 
-/* line 209, ../sass/site.scss */
+/* line 207, ../sass/site.scss */
 .footer {
   color: #fff;
   position: absolute;
@@ -9071,26 +9071,26 @@ nav a {
   background-color: #356086;
 }
 
-/* line 219, ../sass/site.scss */
+/* line 217, ../sass/site.scss */
 .container .text-muted {
   margin: 10px 0;
   color: #fff;
 }
 
-/* line 225, ../sass/site.scss */
+/* line 223, ../sass/site.scss */
 .icon-bar {
   color: #000;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1360px) {
-  /* line 230, ../sass/site.scss */
+  /* line 228, ../sass/site.scss */
   .dropdown dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
   }
 }
 
-/* line 243, ../sass/site.scss */
+/* line 241, ../sass/site.scss */
 .nav {
   font-size: 14px;
 }
