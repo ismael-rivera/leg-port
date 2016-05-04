@@ -46,13 +46,14 @@ $half-hero-width: 50px;
 #gamezone{
 background: url(../img/test2.svg) no-repeat;
 background-size: 100% 100%;
+border: 1px solid #003CFF;
 }
 #hero{
 	border: 1px solid #003CFF;
 	display: block;
 	width: 280px;
 	height: 280px;
-	// background: #F00;
+	//background: #F00;
 	position: fixed;
 	z-index: 20;
 	left: 40%;
