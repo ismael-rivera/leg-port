@@ -111,17 +111,15 @@
                 <div class="hidden-xs col-md-6">.col-md-6</div>
                 <div class="col-sm-6 col-md-3 mount-tops">.col-md-3</div>
               </div>
-              <div class="row"id="mountain">
-                <div class="hidden-xs col-md-12">
+              <div class="row"id="about">
+                <div class="hidden-xs col-md-4">
                   <div class="animatebox1 box2 black outline"></div>
+                </div>
+                <div class="hidden-xs col-md-4">
+                  
+                </div>
+                <div class="hidden-xs col-md-4">
                   <div class="animatebox1 box2 black outline"></div>
-                  <div class="animatebox1 box2 black outline"></div>
-                  <div class="animatebox1 box2 black outline"></div>
-                  <div class="animatebox1 box2 black outline"></div>
-                  <div class="animatebox1 box2 black outline"></div>
-                  <div class="animatebox1 box2 black outline"></div>
-                  <div class="animatebox1 box2 black outline"></div>
-                  <div class="animatebox1 box2 black outline;"></div>
                 </div>
               </div>
               <div class="row"id="mountain">

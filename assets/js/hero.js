@@ -44,9 +44,16 @@ $(function () { // wait for document ready
 								 	//$("#pin").removeClass("frame0");
 								scene1.on("progress", function (e) {
 						 			$("#progress").text(e.scrollDirection);
-								}); 	
+								});
 
-								 	
+							//Trigger1i1	
+							var tween1i1 = TweenMax.staggerFromTo(".animatebox1", 2, {left: 1700}, {left: 0, ease: Back.easeOut}, 0.35);
+							
+							var scene1i1 = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 300, offset: 1100});
+								scene1i1.setPin("#hero");
+								scene1i1.setTween(tween1i1);
+								scene1i1.addIndicators({name: "staggering"}); // add indicators (requires plugin)
+								scene1i1.addTo(controller);	 	
 								 	//console.log(slamdown);
 								// 	if(controller.info("scrollDirection") === "REVERSE"){
 								// 		$("#hero").addClass("frame2up")
@@ -67,8 +74,13 @@ $(function () { // wait for document ready
 								// })
 								scene1.addTo(controller);
 							// build scenes
+
+
+
+
+
+
 							//Trigger 2
-							
 							function updateBox2 (e) {
 								if (e.type == "enter") {
 									inout = "inside";

@@ -44,9 +44,10 @@ body {
 
 $half-hero-width: 50px;
 #gamezone{
-background: url(../img/minimal_bg.png) no-repeat;
-background-size: 100% 100%;
-border: 1px solid #003CFF;
+	background: url(../img/minimal_bg.png) no-repeat;
+	background-size: 100% 100%;
+	border: 1px solid #003CFF;
+	overflow: hidden;
 }
 #hero{
 	border: 1px solid #003CFF;
@@ -242,10 +243,11 @@ nav{
 .nav{font-size:14px;}
 
 .animatebox1{
-	display: block;
-	background-color: #000;
-	width: 100px;                      
-	height:200px;
+	position: absolute;
+	background-color: #cecece;
+	width: 100%;                      
+	height:900px;
+	left:1700px;
 }                                                                      
 
 
