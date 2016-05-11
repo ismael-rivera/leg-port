@@ -92,6 +92,14 @@
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </nav><!-- /nav -->
+<div id="scrollto-map">
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+</div>
     <div class="container-fluid" id="gamezone">
       <div class="row">
         <div class="col-sm-12 col-md-12">
@@ -113,7 +121,7 @@
               </div>
               <div class="row"id="about">
                 <div class="hidden-xs col-md-4">
-                  <div class="animatebox1 box2 black outline"></div>
+                  <div class="animatebox1"></div>
                 </div>
                 <div class="hidden-xs col-md-4">
                   

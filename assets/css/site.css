@@ -9104,4 +9104,15 @@ nav a {
   width: 100%;
   height: 900px;
   left: 1700px;
+  index: 49;
+}
+
+/* line 254, ../sass/site.scss */
+#scrollto-map {
+  display: block;
+  background-color: #ff0;
+  position: fixed;
+  index: 89;
+  width: 20px;
+  right: 0px;
 }
