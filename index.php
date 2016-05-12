@@ -39,7 +39,7 @@
     <script type="text/javascript" src="assets/js/libs/scrollmagic/ScrollMagic.js"></script>
     <script type="text/javascript" src="assets/js/libs/scrollmagic/plugins/animation.gsap.min.js"></script>
     <script type="text/javascript" src="assets/js/libs/scrollmagic/plugins/debug.addIndicators.js"></script>
-
+    <script type="text/javascript" src="assets/js/libs/greensock/plugins/ScrollToPlugin.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -93,53 +93,66 @@
       </div><!-- /.container -->
     </nav><!-- /nav -->
 <div id="scrollto-map">
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-    </ul>
+    <span onclick="goTo(0)">0</span>
+    <span onclick="goTo(1)">1</span>
+    <span onclick="goTo(2)">2</span>
+    <span onclick="goTo(3)">3</span>
+    <span onclick="goTo(4)">4</span>
+    <span onclick="goTo(5)">5</span>
+    <span onclick="goTo(6)">6</span>
+    <span onclick="goTo(7)">7</span>
+    <span onclick="goTo(8)">8</span>
+    <span onclick="goTo(9)">9</span>
 </div>
     <div class="container-fluid" id="gamezone">
       <div class="row">
         <div class="col-sm-12 col-md-12">
           <div class="container-fluid">
-              <div class="row">
-                <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
+              <section class="row section" id="section-1">
+                <div class="hidden-xs col-sm-5 col-md-5">section-1: debugger</div>
                 <div class="col-sm-2 col-md-2"><div id="progress"></div></div>
-                <div class="hidden-xs col-sm-5 col-md-5">.col-md-3</div>
-              </div>
-              <div class="row" id="bridge">
+                <div class="hidden-xs col-sm-5 col-md-5">section-1: debugger</div>
+              </section>
+              <section class="row section" id="section-2">
                 <div class="col-sm-12 col-md-12 mount-tops">
-                  <div id="hero" class="frame0"><p>hero</p></div>
+                  <div id="hero" class="frame0"><p>section-2: hero</p></div>
                 </div>
-              </div>
-              <div class="row" id="mountaintops">
-                <div class="col-sm-6 col-md-3 mount-tops">.col-md-3</div>
-                <div class="hidden-xs col-md-6">.col-md-6</div>
-                <div class="col-sm-6 col-md-3 mount-tops">.col-md-3</div>
-              </div>
-              <div class="row"id="about">
-                <div class="hidden-xs col-md-4">
-                  <div class="animatebox1"></div>
-                </div>
-                <div class="hidden-xs col-md-4">
-                  
-                </div>
-                <div class="hidden-xs col-md-4">
-                  <div class="animatebox1 box2 black outline"></div>
-                </div>
-              </div>
-              <div class="row"id="mountain">
-                <div class="col-sm-6 col-md-4 mounts">.col-md-3</div>
-                <div class="hidden-xs col-md-4"></div>
-                <div class="col-sm-6 col-md-4 mounts">.col-md-3</div>
-              </div>
-              <div class="row" id="therest">
-                <div class="col-sm-6 col-md-5 mounts">.col-md-3</div>
-                <div class="hidden-xs col-md-2">.col-md-3</div>
-                <div class="col-sm-6 col-md-5 mounts">.col-md-3</div>
-              </div>
+              </section>
+              <section class="row section" id="section-3">
+                <div class="col-sm-6 col-md-3 tracer">section-3</div>
+                <div class="hidden-xs col-md-6 tracer">section-3</div>
+                <div class="col-sm-6 col-md-3 tracer">section-3</div>
+              </section>
+              <section class="row section" id="section-4">
+                <div class="hidden-xs col-md-4 tracer">section-4</div>
+                <div class="hidden-xs col-md-4 tracer">section-4</div>
+                <div class="hidden-xs col-md-4 tracer">section-4</div>
+              </section>
+              <section class="row section" id="section-5">
+                <div class="col-sm-6 col-md-4 tracer">section-5</div>
+                <div class="hidden-xs col-md-4 tracer">section-5</div>
+                <div class="col-sm-6 col-md-4 tracer">section-5</div>
+              </section>
+              <section class="row section" id="section-6">
+                <div class="col-sm-6 col-md-5 tracer">section-6</div>
+                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
+                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+              </section>
+              <section class="row section" id="section-7">
+                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
+                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+              </section>
+              <section class="row section" id="section-8">
+                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
+                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+              </section>
+              <section class="row section" id="section-9">
+                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
+                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+              </section>
           </div>  
         </div>
       </div>
@@ -159,6 +172,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="assets/js/scrolling.js"></script>
     <script type="text/javascript" src="assets/js/hero.js"></script>
     <script src="assets/js/compiled/compiled.js"></script>
 

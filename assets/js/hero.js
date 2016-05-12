@@ -72,7 +72,7 @@ $(function () { // wait for document ready
 						 	// 		//console.log(slamdown);
 
 								// })
-								scene1.addTo(controller);
+								//scene1.addTo(controller);
 							// build scenes
 
 
