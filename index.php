@@ -34,7 +34,6 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script type="text/javascript" src="assets/js/libs/jquery-1.12.0.min.js"></script>
-    <script src="assets/js/libs/bootstrap/ie-emulation-modes-warning.js"></script>
     <script type="text/javascript" src="assets/js/libs/greensock/TweenMax.min.js"></script>
     <script type="text/javascript" src="assets/js/libs/scrollmagic/ScrollMagic.js"></script>
     <script type="text/javascript" src="assets/js/libs/scrollmagic/plugins/animation.gsap.min.js"></script>
