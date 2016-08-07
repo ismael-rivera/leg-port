@@ -1,8 +1,4 @@
 @import "basefiles/base";
-// Import Bootstrap Compass integration
-@import "basefiles/bootstrap-compass";
-// Import Bootstrap for Sass
-@import "basefiles/bootstrap";
 
 body {
     // background: url('../img/homepage_legend_concept_02.png') no-repeat center center fixed;
@@ -77,7 +73,7 @@ $half-hero-width: 50px;
 	top: 10px;
 }
 #bgmain{
-	height: 16200px;
+	height: 16590px;
 	display: block;
 	margin: 0px;
 	padding: 0px;

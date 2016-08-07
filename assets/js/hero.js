@@ -16,7 +16,7 @@ $(function () { // wait for document ready
 							         // apply effects and animations
 							 		$("#hero").addClass("frame0");
 							     }
-							     if ($(this).scrollTop() > 15890) {
+							     if ($(this).scrollTop() > 16054) {
 							         // apply effects and animations
 							 		$("#hero").removeClass("frame0").addClass("frame3");
 							     } 
