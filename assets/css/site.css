@@ -68,9 +68,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: 100% 100%;
   border: 1px solid #003CFF;
   overflow: hidden;
+  height: 17990px;
+}
+/* line 48, ../sass/site.scss */
+#gamezone h3 {
+  font-size: 24px;
+  font-weight: 900;
 }
 
-/* line 48, ../sass/site.scss */
+/* line 53, ../sass/site.scss */
 #hero {
   border: 1px solid #003CFF;
   display: block;
@@ -81,12 +87,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 40%;
 }
 
-/* line 59, ../sass/site.scss */
+/* line 64, ../sass/site.scss */
 .tracer {
   border: 1px dashed #F00;
 }
 
-/* line 61, ../sass/site.scss */
+/* line 66, ../sass/site.scss */
 #customactions {
   position: fixed;
   z-index: 80;
@@ -102,9 +108,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 10px;
 }
 
-/* line 75, ../sass/site.scss */
+/* line 80, ../sass/site.scss */
 #bgmain {
-  height: 16590px;
   display: block;
   margin: 0px;
   padding: 0px;
@@ -113,7 +118,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
 }
 
-/* line 85, ../sass/site.scss */
+/* line 90, ../sass/site.scss */
 #hero_still {
   display: block;
   width: 50px;
@@ -125,48 +130,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 15700px;
 }
 
-/* line 101, ../sass/site.scss */
+/* line 106, ../sass/site.scss */
 .navbar-toggle {
   background-color: #252525;
 }
 
-/* line 104, ../sass/site.scss */
+/* line 109, ../sass/site.scss */
 nav {
   background-color: #b11d28;
 }
-/* line 106, ../sass/site.scss */
+/* line 111, ../sass/site.scss */
 nav a {
   color: #fff;
 }
 
-/* line 110, ../sass/site.scss */
+/* line 115, ../sass/site.scss */
 .icon-bar {
   background-color: #fff;
 }
 
-/* line 112, ../sass/site.scss */
+/* line 117, ../sass/site.scss */
 .box1.outline, .box2.outline, .box3.outline {
   border: 1px solid white;
 }
 
-/* line 116, ../sass/site.scss */
+/* line 121, ../sass/site.scss */
 .section-title {
   background-color: #b11d28;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 120, ../sass/site.scss */
+/* line 125, ../sass/site.scss */
 .section-title h3 {
   color: #fff;
 }
 
-/* line 123, ../sass/site.scss */
+/* line 128, ../sass/site.scss */
 .section-pad {
   padding-top: 45px;
   padding-bottom: 95px;
 }
 
-/* line 128, ../sass/site.scss */
+/* line 133, ../sass/site.scss */
 .box1 {
   min-width: 50px;
   width: 280px;
@@ -176,13 +181,13 @@ nav a {
   border: 1px solid #F00 !important;
 }
 
-/* line 136, ../sass/site.scss */
+/* line 141, ../sass/site.scss */
 .frame0 {
   height: 250px;
   background: url(../img/dive_00.png) no-repeat;
 }
 
-/* line 140, ../sass/site.scss */
+/* line 145, ../sass/site.scss */
 .frame1 {
   width: 280px;
   height: 280px;
@@ -190,7 +195,7 @@ nav a {
   background: url(../img/dive_01.png) no-repeat;
 }
 
-/* line 146, ../sass/site.scss */
+/* line 151, ../sass/site.scss */
 .frame2 {
   width: 280px;
   height: 280px;
@@ -198,7 +203,7 @@ nav a {
   background: url(../img/dive_02.png) no-repeat;
 }
 
-/* line 153, ../sass/site.scss */
+/* line 158, ../sass/site.scss */
 .frame2up {
   width: 280px;
   height: 280px;
@@ -211,7 +216,7 @@ nav a {
   transform: rotate(180deg);
 }
 
-/* line 164, ../sass/site.scss */
+/* line 169, ../sass/site.scss */
 .frame3 {
   width: 280px;
   height: 280px;
@@ -219,12 +224,12 @@ nav a {
   background: url(../img/dive_03.png) no-repeat;
 }
 
-/* line 171, ../sass/site.scss */
+/* line 176, ../sass/site.scss */
 .csspring_spacer10 {
   height: 10px;
 }
 
-/* line 175, ../sass/site.scss */
+/* line 180, ../sass/site.scss */
 .csspring_spacer10, .csspring_spacer5 {
   display: block;
   width: 100%;
@@ -235,33 +240,33 @@ nav a {
   overflow: visible;
 }
 
-/* line 184, ../sass/site.scss */
+/* line 189, ../sass/site.scss */
 .csspring_spacer1000 {
   height: 1000px;
 }
 
-/* line 188, ../sass/site.scss */
+/* line 193, ../sass/site.scss */
 .csspring_spacer5 {
   height: 500px;
 }
 
-/* line 191, ../sass/site.scss */
+/* line 196, ../sass/site.scss */
 #prefooter {
   color: #fff;
   background-color: #356086;
   padding-top: 30px;
   padding-bottom: 40px;
 }
-/* line 196, ../sass/site.scss */
+/* line 201, ../sass/site.scss */
 #prefooter ul, #prefooter h4 {
   padding-left: 10px;
 }
-/* line 198, ../sass/site.scss */
+/* line 203, ../sass/site.scss */
 #prefooter ul li, #prefooter ul h4, #prefooter h4 li, #prefooter h4 h4 {
   padding: 10px 0px;
 }
 
-/* line 202, ../sass/site.scss */
+/* line 207, ../sass/site.scss */
 .footer {
   color: #fff;
   position: absolute;
@@ -272,31 +277,31 @@ nav a {
   background-color: #356086;
 }
 
-/* line 212, ../sass/site.scss */
+/* line 217, ../sass/site.scss */
 .container .text-muted {
   margin: 10px 0;
   color: #fff;
 }
 
-/* line 218, ../sass/site.scss */
+/* line 223, ../sass/site.scss */
 .icon-bar {
   color: #000;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1360px) {
-  /* line 223, ../sass/site.scss */
+  /* line 228, ../sass/site.scss */
   .dropdown dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
   }
 }
 
-/* line 236, ../sass/site.scss */
+/* line 241, ../sass/site.scss */
 .nav {
   font-size: 14px;
 }
 
-/* line 238, ../sass/site.scss */
+/* line 243, ../sass/site.scss */
 .animatebox1 {
   position: absolute;
   background-color: #cecece;
@@ -306,7 +311,7 @@ nav a {
   z-index: 40;
 }
 
-/* line 247, ../sass/site.scss */
+/* line 252, ../sass/site.scss */
 #scrollto-map {
   display: block;
   background-color: #ff0;
@@ -316,9 +321,49 @@ nav a {
   right: 0px;
   bottom: 35%;
 }
-/* line 255, ../sass/site.scss */
+/* line 260, ../sass/site.scss */
 #scrollto-map span {
   cursor: pointer;
   display: block;
   border: 1px solid #f00;
+}
+
+/* line 268, ../sass/site.scss */
+#section-0 {
+  height: 250px;
+}
+
+/* line 271, ../sass/site.scss */
+#section-2 {
+  height: 1950px;
+}
+
+/* line 274, ../sass/site.scss */
+#section-3 {
+  height: 2950px;
+}
+
+/* line 277, ../sass/site.scss */
+#section-4 {
+  height: 2950px;
+}
+
+/* line 280, ../sass/site.scss */
+#section-5 {
+  height: 950px;
+}
+
+/* line 283, ../sass/site.scss */
+#section-6 {
+  height: 3950px;
+}
+
+/* line 286, ../sass/site.scss */
+#section-7 {
+  height: 1950px;
+}
+
+/* line 289, ../sass/site.scss */
+#section-8 {
+  height: 1950px;
 }

@@ -2,6 +2,23 @@ var slamdown = false;
 var inout = "outside";
 
 
+var section_height = [250, 0, 1950, 3950, 2950, 2950, 3950, 1950, 1950].reduce(add, 0);
+function add(a, b) {
+    return a + b;
+}
+console.log(section_height); // 6
+
+// var i = 0;
+// var text = '';
+// while (i < 9) { 
+// 	h = "The height is " + section_height[i]; i++;
+// 	console.log(h);
+
+// }
+
+
+
+
 
 $(function () { // wait for document ready
 

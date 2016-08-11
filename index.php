@@ -107,50 +107,50 @@
       <div class="row">
         <div class="col-sm-12 col-md-12">
           <div class="container-fluid">
-              <section class="row section" id="section-1">
-                <div class="hidden-xs col-sm-5 col-md-5">section-1: debugger</div>
-                <div class="col-sm-2 col-md-2"><div id="progress"></div></div>
-                <div class="hidden-xs col-sm-5 col-md-5">section-1: debugger</div>
+              <section class="row section" id="section-0">
+                <div class="hidden-xs col-sm-5 col-md-5 tracer"></div>
+                <div class="col-sm-2 col-md-2 tracer"><div id="progress">section-0: debugger</div></div>
+                <div class="hidden-xs col-sm-5 col-md-5 tracer"></div>
               </section>
-              <section class="row section" id="section-2">
-                <div class="col-sm-12 col-md-12 mount-tops">
+              <section class="row section" id="section-1">
+                <div class="col-sm-12 col-md-12 mount-tops tracer">
                   <div id="hero" class="frame0"><p>section-2: hero</p></div>
                 </div>
               </section>
+              <section class="row section" id="section-2">
+                <div class="col-sm-6 col-md-3 tracer"><h3>Mountain Tops section-2</h3></div>
+                <div class="hidden-xs col-md-6 tracer">Mountain Tops section-2</div>
+                <div class="col-sm-6 col-md-3 tracer"><h3>Mountain Tops section-2</h3></div>
+              </section>
               <section class="row section" id="section-3">
-                <div class="col-sm-6 col-md-3 tracer">section-3</div>
-                <div class="hidden-xs col-md-6 tracer">section-3</div>
-                <div class="col-sm-6 col-md-3 tracer">section-3</div>
+                <div class="hidden-xs col-md-4 tracer"><h3>section-3</h3></div>
+                <div class="hidden-xs col-md-4 tracer">section-3</div>
+                <div class="hidden-xs col-md-4 tracer"><h3>section-3</h3></div>
               </section>
               <section class="row section" id="section-4">
+                <div class="col-sm-6 col-md-4 tracer"><h3>section-4</h3></div>
                 <div class="hidden-xs col-md-4 tracer">section-4</div>
-                <div class="hidden-xs col-md-4 tracer">section-4</div>
-                <div class="hidden-xs col-md-4 tracer">section-4</div>
+                <div class="col-sm-6 col-md-4 tracer"><h3>section-4</h3></div>
               </section>
               <section class="row section" id="section-5">
-                <div class="col-sm-6 col-md-4 tracer">section-5</div>
-                <div class="hidden-xs col-md-4 tracer">section-5</div>
-                <div class="col-sm-6 col-md-4 tracer">section-5</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-5</h3></div>
+                <div class="hidden-xs col-md-2 tracer">section-5</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-5</h3></div>
               </section>
               <section class="row section" id="section-6">
-                <div class="col-sm-6 col-md-5 tracer">section-6</div>
-                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
-                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-6</h3></div>
+                <div class="hidden-xs col-md-2 tracer">section-6</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-6</h3></div>
               </section>
               <section class="row section" id="section-7">
-                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
-                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
-                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-7</h3></div>
+                <div class="hidden-xs col-md-2 tracer">section-7</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-7</h3></div>
               </section>
               <section class="row section" id="section-8">
-                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
-                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
-                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
-              </section>
-              <section class="row section" id="section-9">
-                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
-                <div class="hidden-xs col-md-2 tracer">.col-md-3</div>
-                <div class="col-sm-6 col-md-5 tracer">.col-md-3</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-8</h3></div>
+                <div class="hidden-xs col-md-2 tracer">section-8</div>
+                <div class="col-sm-6 col-md-5 tracer"><h3>section-8</h3></div>
               </section>
           </div>  
         </div>
@@ -172,7 +172,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="assets/js/scrolling.js"></script>
-    <script type="text/javascript" src="assets/js/hero.js"></script>
+    <script type="text/javascript" src="assets/js/hero.js"></script> 
     <script src="assets/js/compiled/compiled.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
