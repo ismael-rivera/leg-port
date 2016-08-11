@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 42, ../sass/site.scss */
 #gamezone {
-  background-size: 100% 100%;
+  background: url("../img/bg.jpg") no-repeat;
   border: 1px solid #003CFF;
   overflow: hidden;
   height: 17990px;
