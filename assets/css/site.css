@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url("../img/homepage_minimalist_03.png") no-repeat;
   border: 1px solid #003CFF;
   overflow: hidden;
-  height: 17990px;
+  height: 17760px;
 }
 /* line 48, ../sass/site.scss */
 #gamezone h3 {
@@ -365,5 +365,5 @@ nav a {
 
 /* line 289, ../sass/site.scss */
 #section-8 {
-  height: 1950px;
+  height: 1900px;
 }
